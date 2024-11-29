@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import path from "path"; // ◀◀ 追加
+import path from "path";
 const repositoryName = "react-todo-app";
 export default defineConfig({
   plugins: [react()],
