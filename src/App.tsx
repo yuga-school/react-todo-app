@@ -298,7 +298,7 @@ const App = () => {
             {/* モーダルを閉じるボタン */}
             <button
               onClick={closeVideoModal}
-              className="absolute right-4 top-4 text-3xl text-white"
+              className="fixed right-4 top-4 text-7xl text-white"
             >
               ×
             </button>
